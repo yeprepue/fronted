@@ -6,10 +6,7 @@ suman puntos de "felicidad".
 
 ## Demo
 
-<a href="https://drive.google.com/file/d/1vkonMr0FQD-gHDOcSn6zeq_K_e2hY-Bn/view?usp=sharing" target="_blank">
-  <img src="https://img.shields.io/badge/🎬-Ver_Demo-blue?style=for-the-badge" alt="Ver Demo">
-</a>
-
+[Ver demo de la aplicación](https://drive.google.com/file/d/1vkonMr0FQD-gHDOcSn6zeq_K_e2hY-Bn/view?usp=sharing)
 ## Estructura del proyecto
 
 ```
