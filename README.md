@@ -6,11 +6,9 @@ suman puntos de "felicidad".
 
 ## Demo
 
-<div align="center">
-  <a href="https://drive.google.com/file/d/1vkonMr0FQD-gHDOcSn6zeq_K_e2hY-Bn/view?usp=sharing">
-    <img src="https://img.shields.io/badge/▶️_Ver_Demo_Video-FF0000?style=for-the-badge&logo=youtube&logoColor=white" alt="Ver Demo">
-  </a>
-</div>
+<a href="https://drive.google.com/file/d/1vkonMr0FQD-gHDOcSn6zeq_K_e2hY-Bn/view?usp=sharing">
+  <img src="https://via.placeholder.com/800x400/0d1117/ffffff?text=🎬+Click+para+ver+Demo" alt="Demo de la aplicación" width="100%">
+</a>
 
 ```
 .
