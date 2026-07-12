@@ -3,7 +3,12 @@
 Pequeña aplicación interactiva construida con **Svelte**. Muestra una cara sonriente,
 un texto (guión de la historia) y botones que, al pulsarlos, avanzan la historia y
 suman puntos de "felicidad".
-https://drive.google.com/file/d/1vkonMr0FQD-gHDOcSn6zeq_K_e2hY-Bn/view?usp=sharing
+
+## Demo
+
+<a href="https://drive.google.com/file/d/1vkonMr0FQD-gHDOcSn6zeq_K_e2hY-Bn/view?usp=sharing" target="_blank">
+  <img src="https://img.shields.io/badge/🎬-Ver_Demo-blue?style=for-the-badge" alt="Ver Demo">
+</a>
 
 ## Estructura del proyecto
 
