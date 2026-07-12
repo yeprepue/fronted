@@ -1,5 +1,5 @@
 <script>
-    import Face from '/Face.svelte';
+    import Face from './Face.svelte';
     import Container from './Container.svelte';
     import Header from './Header.svelte';
     import Buttons from './Buttons.svelte';
@@ -22,15 +22,12 @@
 {/if}
 <Container>
     <h1>{smileySays}</h1>
-    <Face index={2} />
+    <Face {happyScore} size={storyIndex+1} />
     <Buttons {buttons} on:click={clickHandler} />
 </Container>
 
 
 <style>
-    div {
-        color: red;
-    }
     :global(*) {
 		box-sizing: border-box;
 	}
