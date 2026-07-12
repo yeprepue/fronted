@@ -5,10 +5,15 @@ un texto (guión de la historia) y botones que, al pulsarlos, avanzan la histori
 suman puntos de "felicidad".
 
 ## Demo
+# Aplicación Frontend Svelte
 
-<a href="https://drive.google.com/file/d/1vkonMr0FQD-gHDOcSn6zeq_K_e2hY-Bn/view?usp=sharing">
-  <img src="https://via.placeholder.com/800x400/0d1117/ffffff?text=🎬+Click+para+ver+Demo" alt="Demo de la aplicación" width="100%">
-</a>
+## 📱 Demo
+
+Haz clic en el siguiente enlace para ver una demostración de la aplicación en funcionamiento:
+
+[![Ver Demo](https://img.shields.io/badge/▶️_Ver_Demo-1f883d?style=for-the-badge&logo=googledrive&logoColor=white)](https://drive.google.com/file/d/1vkonMr0FQD-gHDOcSn6zeq_K_e2hY-Bn/view?usp=sharing)
+
+## Arquitectura
 
 ```
 .
