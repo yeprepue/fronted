@@ -1,0 +1,7 @@
+node_modules/
+index.pack.js
+index.pack.js.map
+dist/
+.DS_Store
+.vscode/
+*.log
