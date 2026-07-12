@@ -6,8 +6,9 @@ suman puntos de "felicidad".
 
 ## Demo
 
-[Ver demo de la aplicación](https://drive.google.com/file/d/1vkonMr0FQD-gHDOcSn6zeq_K_e2hY-Bn/view?usp=sharing)
-## Estructura del proyecto
+[![Demo de la aplicación](https://img.youtube.com/vi/PLACEHOLDER/maxresdefault.jpg)](https://drive.google.com/file/d/1vkonMr0FQD-gHDOcSn6zeq_K_e2hY-Bn/view?usp=sharing)
+
+> Haz clic en la imagen para ver el video de demostración
 
 ```
 .
