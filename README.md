@@ -3,6 +3,9 @@
 Pequeña aplicación interactiva construida con **Svelte**. Muestra una cara sonriente,
 un texto (guión de la historia) y botones que, al pulsarlos, avanzan la historia y
 suman puntos de "felicidad".
+<img width="1910" height="936" alt="Screenshot 2026-07-11 215828" src="https://github.com/user-attachments/assets/bad454a9-fc84-4838-9e04-0f136ad4c948" />
+
+<img width="1910" height="940" alt="Screenshot 2026-07-11 215848" src="https://github.com/user-attachments/assets/f69bc24d-5e03-47f5-9b5f-697a249b6e5d" />
 
 ## Estructura del proyecto
 
