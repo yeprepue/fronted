@@ -1,15 +1,21 @@
 <script>
-    import Face from "/Face.svelte";
-    import Container from "./Container.svelte";
-    import Header from "./Header.svelte";
-    import Buttons from "./Buttons.svelte";
-    import story from "./story";
-
+    import Face from '/Face.svelte';
+    import Container from './Container.svelte';
+    import Header from './Header.svelte';
+    import Buttons from './Buttons.svelte';
+    import story from './story';
+    
     let showHeader = false;
-    let score = 0;
-    let smileySays = "Hi there, your score is: " + score;
-    let buttons = story[0].buttons;
+    let happyScore = 0;
+    let storyIndex = 0;
+    $: smileySays = story[storyIndex].smileySays;
+    $: buttons = story[storyIndex].buttons;
+    function clickHandler(e) {
+        storyIndex += 1;
+        happyScore += e.detail.value;
+    }
 </script>
+
 
 {#if showHeader}
     <Header />
@@ -17,24 +23,20 @@
 <Container>
     <h1>{smileySays}</h1>
     <Face index={2} />
-    <Buttons
-        {buttons}
-        on:click={(e) => {
-            score += e.detail.value;
-        }}
-    />
+    <Buttons {buttons} on:click={clickHandler} />
 </Container>
+
 
 <style>
     div {
         color: red;
     }
     :global(*) {
-        box-sizing: border-box;
-    }
-    :global(body, html) {
-        margin: 0;
-        height: 100vh;
-        overflow: hidden;
-    }
+		box-sizing: border-box;
+	}
+	:global(body, html) {
+		margin: 0;
+		height: 100vh;
+		overflow: hidden;
+	}
 </style>
